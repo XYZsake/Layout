@@ -1,0 +1,86 @@
+div{
+    height: 50px;
+    border-style: solid;
+    border-color: #f2eee5;
+    line-height:50px;
+    text-align:center;
+}
+
+.tow-column1{
+    display: block;
+}
+.tow-column2{
+    display: block;
+    overflow: auto;
+    position: relative;
+}
+.tow-column3{
+    display: block;
+    overflow: auto;
+    position: relative;
+}
+
+.left-column1{ /*两栏布局，左侧占30%宽度，右侧占70%宽度*/
+    width: 30%;
+    float: left;
+    background-color:#5eb7b7;
+}
+.right-column1{
+    background-color: #96d1c7;
+}
+
+.left-column2{ /*两栏布局，左侧固定宽度，右侧根据浏览器宽度进行自适应变化*/
+    width: 50px;
+    position: absolute;
+    background-color: #5eb7b7;
+}
+.right-column2{
+    margin-left: 50px;
+    background-color: #96d1c7;
+}
+
+/*两栏布局，右侧固定宽度，左侧根据浏览器宽度进行自适应变化*/
+.right-column3{     /*双float+margin必须保证固定宽度的块在HTML中先出现*/
+    width: 50px;
+    float: right;   
+    background-color: #96d1c7;
+}
+.left-column3{   
+    margin-right: 50px;
+    background-color: #5eb7b7;
+}
+
+
+/*三栏布局，左侧固定宽度，右侧固定宽度，中间部分宽度随浏览器宽度变化而自适应变化*/
+.left-column4{     /*左右浮动，主题放中间，html顺序为左，右，中*/
+    width: 50px; 
+    background-color: #96d1c7;
+    position: absolute;
+    left:0;
+}
+.midium-column4{   
+    background-color: #5eb7b7;
+}
+.right-column4{ 
+    width: 50px;  
+    position: absolute;
+    background-color: #719192;
+    right:0px;
+}
+
+.left-column5{     /*左中浮动，主题放右边，html顺序为左，中，右*/
+    width: 50px;
+    position: absolute;   
+    background-color: #96d1c7;
+    
+}
+.midium-column5{
+    width: 50px;
+    position: absolute;  
+    background-color: #5eb7b7;
+    margin-left:50px;
+}
+.right-column5{   
+    background-color: #719192;   
+}
+

@@ -1,0 +1,161 @@
+header{
+    background-color: #2a363b;
+    height: 60px;
+}
+.banner{
+    background-color: #e84a5f;
+    height: 200px;
+}
+
+
+.logo{
+    font-size: 20px;
+    color: #FFF;
+    float: left;
+    padding-left: 100px;
+    line-height: 60px;
+}
+.tag{
+    float: right;
+    font-size: 15px;
+    padding-right: 100px;
+}
+a{
+    color: #FFF;
+}
+.index{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-top: 150px;
+    padding-right: 200px;
+}
+
+.item1{
+    background-color: #FFF;
+    width: 20px;
+    height: 30px;
+    margin-right: 10px;
+    opacity: 0.7;
+    line-height: 30px;
+    text-align: center;
+    border: solid #f73859;
+}
+.item2{
+    background-color: #FFF;
+    width: 20px;
+    height: 40px;
+    margin-right: 10px;
+    opacity: 0.9;
+    line-height: 50px;
+    text-align: center;
+    border: solid #f73859;
+}
+
+.nav{
+    width: 100%;
+    height: 50px;
+    padding: 10px 0 13px 100px;
+    border-bottom: 1px solid #ff847c;
+}
+ul{
+    list-style: none;
+}
+.nav li{
+    padding: 0 20px 0 20px;
+    line-height: 50px;
+    float: left;
+    font-size: 15px;
+    border-top-left-radius:1em;
+    border-top-right-radius:1em;
+    border: 1px solid #f73859;
+    background-color: #ff847c;
+}
+.nav li:hover{
+    background-color: #f73859 ;
+}
+.nav li:active{
+    background-color: #f73859 ;
+}
+.main{
+    min-height: 900px;
+    margin: 20px 50px 0 150px;
+    width:960px;
+}
+.row1{
+    display: flex;
+}
+.row2{
+    display: flex;
+}
+.row3{
+    display: flex;
+}
+.content1{
+    width: 40%;
+	height: 50px;
+    border: solid #2a363b;  
+    padding: 80px;
+    margin:0 20px 20px 0
+}
+.content2{
+    width: 30%;
+	height: 50px;
+    border: solid #2a363b; 
+    padding: 80px; 
+    margin:0 20px 20px 0;
+    flex-grow: 1;
+}
+.content3{
+    width: 30%;
+	height: 50px;
+    border: solid #2a363b; 
+    padding: 80px; 
+    margin:0 20px 20px 0;
+}
+.content4, .content5, .content6, .content7{
+    height: 50px;
+    line-height: 50px;
+    padding: 80px; 
+    border: solid #2a363b; 
+    margin:0 20px 20px 0 ;
+
+}
+.content4{
+    flex: 1;  
+}
+.content5{
+    flex: 1;
+}
+.content6{
+    flex: 1;
+}
+.content7{
+    flex: 1;
+}
+.content8, .content9, .content10{
+    height: 50px;
+    line-height: 50px;
+    border: solid #2a363b;  
+    padding: 80px;
+    margin:0 20px 20px 0;
+    text-align: center;
+}
+.content8{
+    flex: 1;	  
+}
+.content9{
+    flex: 1;
+}
+.content10{
+    flex: 1;
+}
+
+.footer{
+    overflow: hidden;
+    background-color: #fecea8 ;
+    height: 50px;
+    flex: 0 0 auto;
+    text-align: center;
+    line-height: 20px;
+}
